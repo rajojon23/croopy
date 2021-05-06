@@ -50,7 +50,7 @@ This is a very simple comment dashboard.
 The REST API to the app is described below. The database used is MySQL and the default table name is 'comments'.
 
 ### Get the comments list
-`GET http://127.0.0.1:5000/api/v1/test_comments`
+`GET http://127.0.0.1:5000/api/v1/comments`
 
 ### Add a comment
 `POST http://127.0.0.1:5000/api/v1/comments/add` 

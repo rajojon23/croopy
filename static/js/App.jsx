@@ -25,7 +25,7 @@ const App = () => {
         //I might have to use websockets instead in production (no time)  
         const interval = setInterval(() => {
          
-            fetch('http://127.0.0.1:5000/test_comments')
+            fetch('http://127.0.0.1:5000/api/v1/comments')
             .then(response => response.json())
             .then((data) => {
                 

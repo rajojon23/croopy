@@ -29,7 +29,7 @@ mysql.init_app(app)
 #     return render_template("index.html")
 
 
-@app.route('/test_comments' , methods=['GET'])
+@app.route('/api/v1/comments' , methods=['GET'])
 def test_comments():
     cur = mysql.get_db().cursor()
     comments = cur.execute('SELECT * FROM comments;')
